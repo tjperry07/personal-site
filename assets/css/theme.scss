@@ -2,9 +2,9 @@
 
 ---
 
-$brown: #B59F62;
-$teal: #40FFDC;
-$black: #111;
+$brown: #7E6B8F;
+$teal:  #A3D9FF;
+$black: #2D3047;
 $primary: $teal;
 $dark:    $black;
 $enable-rounded: false;
@@ -34,6 +34,7 @@ img {
 
 h1,h2,h3,h4,h5,h6 {
     font-weight:700;
+    color: #2D3047;
 }
 .site-content {
     padding-top:50px;
@@ -61,7 +62,7 @@ blockquote {
     font-style: italic;
     font-size: 20px;
     position:relative;
-    border-left:1px solid $dark;
+    border-left:3px solid #FFD503;
     margin-left:30px;
     padding-left:15px;
     cite {
@@ -237,7 +238,7 @@ img, img:hover {
     grid-gap: 30px;
 }
 .blog-grid-item {  
-    color: #333;
+    color: #2D3047;
     padding: 0;
     display: flex;
     align-items:center;
@@ -379,7 +380,7 @@ img, img:hover {
             min-width:250px;
         }
         input[type="submit"] {    
-            color: #222;
+            color: #2D3047;
             padding: 4px 20px;
             margin-left:-5px;
             background:$primary;
@@ -449,7 +450,7 @@ img, img:hover {
     }
     code {
         font-size: 15px;
-        color: #94918d;
+        color: #7E6B8F;
     }
     code[class*="language-"], pre[class*="language-"] {
         font-size:15px;
@@ -565,7 +566,7 @@ img, img:hover {
 }
 .lunrsearchresult {
     .title {
-        color:#000;
+        color:#2D3047;
         font-weight:700;
         line-height:1.2;
         display:block;
@@ -607,12 +608,12 @@ body.active-side {
 }
 
 //the timeline
-$border-color: rgba(black, 0.3);
+$border-color: #A3D9FF;
 
 .timeline-item {
 	padding: 3em 2em 2em;
 	position: relative;
-	color: rgba(black, 0.7);
+	color: #2D3047;
 	border-left: 2px solid $border-color;
 
 	p {
@@ -778,4 +779,17 @@ $border-color: rgba(black, 0.3);
             height:35px;
         }
     }
+}
+
+//My edits
+
+.post-date{
+    color: #2D3047;
+}
+.article-post p{
+ color: #2D3047;   
+}
+
+.share ul i{
+    color: #2D3047;
 }

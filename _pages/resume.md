@@ -5,5 +5,4 @@ permalink: /resume
 comments: false
 ---
 
-
-Hi
+If you want to work together, [let me know](https://tjperry07.typeform.com/to/LfAdcJ).
