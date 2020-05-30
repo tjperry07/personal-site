@@ -4,7 +4,7 @@ title: "Tatiana Perry"
 description: "I'm a technical writer who writes mostly about documenation. Sometimes I write about food, travel or other things that interest me. Welcome!"
 logo: 'assets/images/logo_humaaans.png'
 favicon: 'assets/images/logo_humaaans.png'
-site: 'https://wizardly-almeida-38004a.netlify.app'
+site: https://wizardly-almeida-38004a.netlify.app
 baseurl: /
 # google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'tatianaperry'
