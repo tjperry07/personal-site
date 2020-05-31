@@ -17,12 +17,12 @@ My job duties at Rapid7 are much different than they were at BigCommerce. While 
 * Researching and introducing new tools to make the documentation better
 * Many other projects that I hope to add here soon
 * Training my teammates on new processes and writing APIs
-  * [https://ux-writing-r7.netlify.app/]([https://ux-writing-r7.netlify.app/) This is a [course](https://github.com/tperry-r7/ux-writing-training) I created using Hugo and Netlify. It is a really quick way to learn how to document a REST API. For a more in depth tutorial I suggest [https://idratherbewriting.com/documenting-rest-apis-course-overview/](https://idratherbewriting.com/documenting-rest-apis-course-overview/). 
+  * [https://ux-writing-r7.netlify.app/]([https://ux-writing-r7.netlify.app/) This is a [course](https://github.com/tperry-r7/ux-writing-training) I created using Hugo and Netlify. It is a really quick way to learn how to document a REST API.  For a more in-depth tutorial, I suggest [https://idratherbewriting.com/documenting-rest-apis-course-overview/](https://idratherbewriting.com/documenting-rest-apis-course-overview/). 
 
 
 ## BigCommerce
 
-At BigCommerce I was tasked with doing a full revamp of the BigCommerce developer site. This included rewriting all existing documentation, creating new spec files and finding a system that would work for both writers and the company. This meant working across the company with engineering, support and our developer advocate to create the best possible experience. As of May 31, 2020 that foundation is still in place.
+At BigCommerce I was tasked with doing a full revamp of the BigCommerce developer site. This included rewriting all existing documentation, creating new spec files ,and finding a system that would work for both writers and the company. This meant working across the company with engineering, support ,and our developer advocate to create the best possible experience. As of May 31, 2020, that foundation is still in place.
 
 Some of the work that I completed included:
 
@@ -30,7 +30,7 @@ Some of the work that I completed included:
 * Creating new content to get the documentation up to date
 * Rewriting API spec files
 * Creating missing spec files
-* Create a site IA
+* Create site information architecture
 * Figure out if the company should build a solution or go with a SaaS solution
 * Writing and testing code for the documentation
 * Verifying the accuracy of specification files
