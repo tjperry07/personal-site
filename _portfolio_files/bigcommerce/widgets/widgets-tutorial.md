@@ -54,7 +54,7 @@ We will be making a widget that shows three images, with a hover effect and each
 -->
 
 ![#### Category Page Widget
-](//s3.amazonaws.com/user-content.stoplight.io/6012/1551898706416 "#### Category Page Widget
+](https://s3.amazonaws.com/user-content.stoplight.io/6012/1551898706416 "#### Category Page Widget
 ")
 
 ## Add a Region
