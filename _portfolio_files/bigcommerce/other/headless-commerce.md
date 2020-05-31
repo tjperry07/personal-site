@@ -110,9 +110,8 @@ BigCommerce will respond to the application with the requested data to power the
 -->
 
 #### Sample Headless Integration
-![#### Sample Headless Integration
-](//s3.amazonaws.com/user-content.stoplight.io/6012/1554323466855 "#### Sample Headless Integration
-")
+
+![Sample Headless Integration](/assets/images/headless_commerce_diagram.png)
 
 ## PCI Compliance
 
