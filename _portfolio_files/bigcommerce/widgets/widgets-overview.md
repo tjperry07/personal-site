@@ -27,9 +27,9 @@ We are going to review all the components that make a widget. Then, we’ll use 
 
 [Regions](https://developer.bigcommerce.com/api-reference/storefront/widgets-api/regions/getcontentregions) are specific locations in the Stencil theme files where a widget is placed. A region is added at the file level using the format {{{region name="..."}}}. A region can be named however you like, but it is best practice to give it a name that is descriptive of the location and function. A theme file can have as many regions as you want, with more than one widget assigned to the region and the [Placement](/api-docs/storefront/widgets/widgets-overview#widgets_placements) `sort_order` controlling how the widgets appear on the Storefront.
 
-![Content Region](//s3.amazonaws.com/user-content.stoplight.io/6012/1551970794664 "Content Region")
+![Content Region](https://s3.amazonaws.com/user-content.stoplight.io/6012/1551970794664 "Content Region")
 
-![Content Region](//s3.amazonaws.com/user-content.stoplight.io/6012/1551970767918 "Content Region")
+![Content Region](https://s3.amazonaws.com/user-content.stoplight.io/6012/1551970767918 "Content Region")
 
 Most themes in the BigCommerce marketplace come with predefined regions. It is best to utilize those first. By editing the theme and adding theme regions, updates will need to be manually managed.
 
@@ -65,7 +65,7 @@ The slider takes advantage of loops to display each slide on the page.
 
 [Widgets](/api-reference/storefront/widgets-api/widget/getwidgets) are a unit of content that are placed on specific pages in a Stencil theme. Widgets are made of a widget configuration written in json and a widget template UUID. Widgets are rendered as part of the HTML on the storefront.
 
-![Widget](//s3.amazonaws.com/user-content.stoplight.io/6012/1551971053085 "Storefront Widget")
+![Widget](https://s3.amazonaws.com/user-content.stoplight.io/6012/1551971053085 "Storefront Widget")
 
 ### Widget Configuration
 
