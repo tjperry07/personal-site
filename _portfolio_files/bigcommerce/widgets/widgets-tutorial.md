@@ -53,8 +53,7 @@ We will be making a widget that shows three images, with a hover effect and each
     data: //s3.amazonaws.com/user-content.stoplight.io/6012/1551898706416
 -->
 
-![#### Category Page Widget
-](https://s3.amazonaws.com/user-content.stoplight.io/6012/1551898706416)
+![#### Category Page Widget](https://s3.amazonaws.com/user-content.stoplight.io/6012/1551898706416)
 
 ## Add a Region
 In <span class="fp">templates/pages/category.html</span>, add `{{{region name="category_header_banner"}}}` below the page heading: 
