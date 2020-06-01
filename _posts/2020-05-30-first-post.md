@@ -3,7 +3,7 @@ layout: post
 title:  "My first post...on this site at least"
 permalink: /first-post
 image: "assets/images/first_post_cover.png"
-description: "Welcome to my blog"
+description: Welcome to my blog
 ---
 
 Hello <i class="fas fa-hand-sparkles"></i>, and welcome to my first official blog. I say official because I have written things here and there, but never in one place. So, I made a place. Here you can find me writing about documentation, overusing emojis <i class="far fa-smile"></i> and tacos. Thanks for joining me.
