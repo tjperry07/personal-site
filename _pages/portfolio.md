@@ -3,6 +3,7 @@ title: "Portfolio"
 layout: default
 permalink: "/portfolio"
 toc: true
+description: "Portfolio for Tatiana Perry"
 ---
 
 
