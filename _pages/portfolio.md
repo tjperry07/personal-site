@@ -18,7 +18,7 @@ My job duties at Rapid7 are much different than they were at BigCommerce. While 
 * Researching and introducing new tools to make the documentation better
 * Many other projects that I hope to add here soon
 * Training my teammates on new processes and writing APIs
-  * [https://ux-writing-r7.netlify.app/]([https://ux-writing-r7.netlify.app/) This is a [course](https://github.com/tperry-r7/ux-writing-training) I created using Hugo and Netlify. It is a really quick way to learn how to document a REST API.  For a more in-depth tutorial, I suggest [https://idratherbewriting.com/documenting-rest-apis-course-overview/](https://idratherbewriting.com/documenting-rest-apis-course-overview/). 
+  * [https://ux-writing-r7.netlify.app/](https://ux-writing-r7.netlify.app/) This is a [course](https://github.com/tperry-r7/ux-writing-training) I created using Hugo and Netlify. It is a really quick way to learn how to document a REST API.  For a more in-depth tutorial, I suggest [https://idratherbewriting.com/documenting-rest-apis-course-overview/](https://idratherbewriting.com/documenting-rest-apis-course-overview/). 
 
 
 ## BigCommerce
