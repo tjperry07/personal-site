@@ -20,5 +20,5 @@ group :jekyll_plugins do
     gem 'bootstrap', '~> 4.4.1'
     gem 'kramdown'
     gem 'rouge'
-    gem 'jekyll-algolia'
+    gem 'jekyll-target-blank'
 end

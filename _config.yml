@@ -40,6 +40,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-figure
+  - jekyll-target-blank
+
     
 # Archives
 jekyll-archives:
