@@ -83,15 +83,15 @@ A list of resources that helped me along the way.
 
 ### Pandoc
 
-* https://stackoverflow.com/questions/25410701/how-do-i-include-meta-tags-in-pandoc-generated-html
-* https://github.com/eakbas/TSPW
-* https://www.romangeber.com/static_websites_with_pandoc/
+* <https://stackoverflow.com/questions/25410701/how-do-i-include-meta-tags-in-pandoc-generated-html>
+* <https://github.com/eakbas/TSPW>
+* <https://www.romangeber.com/static_websites_with_pandoc/>
 
 ### Local Lunr search
 
-* https://github.com/BLE-LTER/Lunr-Index-and-Search-for-Static-Sites
-* https://lunrjs.com/guides/index_prebuilding.html
-* https://sentamal.in/articles/static-site-search-with-lunrjs/
-* https://www.niamurrell.com/code/tutorials/2018-01-01-adding-search-engine-to-static-site/
+* <https://github.com/BLE-LTER/Lunr-Index-and-Search-for-Static-Sites>
+* <https://lunrjs.com/guides/index_prebuilding.html>
+* <https://sentamal.in/articles/static-site-search-with-lunrjs/>
+* <https://www.niamurrell.com/code/tutorials/2018-01-01-adding-search-engine-to-static-site/>
 
 Todays cover art by: [https://blush.design/artists/vijay-verma](https://blush.design/artists/vijay-verma)
