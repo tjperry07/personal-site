@@ -6,6 +6,7 @@ image: "assets/images/static-site.png"
 description: "Tools to create documentation that is available locally"
 categories: [ Technical Writing ]
 tags: [ pandoc, lujnrjs ]
+toc: true
 ---
 
 I had to solve for a curious use case. Creating documentation that can be used locally, is easy for other to contribute to and has little to no dependencies. There were a lot of other requirements that ruled out options such as mkDocs or even using something like Jekyll.
@@ -44,11 +45,15 @@ html_bef = html_before.replace('{{path-to-search}}', '../' * depth + 'search.htm
 
 Then called it later when it [builds the body](https://github.com/tjperry07/pandoc-local-site/blob/master/docs/rippledoc.py#L475):
 
-```python
-<div id="nav">
-  <a href="{{path-to-search}}">Search</a>
-</div>
-```
+
+{% highlight html%}
+{% raw %}
+  <div id="nav">
+    <a href="{{path-to-search}}">Search</a>
+  </div>
+{% endraw %}
+{% endhighlight %}
+
 
 To control the description and keywords for search I added a [YAML block](https://raw.githubusercontent.com/tjperry07/pandoc-local-site/master/docs/alan_bean.md) to the end of the file. Pandoc will read a YAML block anywhere as long as it has the three dashes, `---`. There are better ways to do this, but for this quick example it works.
 
