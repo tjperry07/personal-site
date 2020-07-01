@@ -17,7 +17,7 @@ After asking around in [#writethedocs](https://www.writethedocs.org/slack/) Slac
 
 With this information in hand I started researching. I was in that predicament other technical writers find themselves in. Do I have time to write this myself or can I find something that is open-source?
 
-The two resources that I found and changed for my needs, [Rippledoc.py](http://www.unexpected-vortices.com/sw/rippledoc/index.html) and [Lunr-Index-and-Search-for-Static-Sites](https://github.com/BLE-LTER/Lunr-Index-and-Search-for-Static-Sites). I am not going to explain setup for each one, you can visit the [repo}(https://github.com/tjperry07/pandoc-local-site) I made or visit each tool for more on configuration options. 
+The two resources that I found and changed for my needs, [Rippledoc.py](http://www.unexpected-vortices.com/sw/rippledoc/index.html) and [Lunr-Index-and-Search-for-Static-Sites](https://github.com/BLE-LTER/Lunr-Index-and-Search-for-Static-Sites). I am not going to explain setup for each one, you can visit the [repo](https://github.com/tjperry07/pandoc-local-site) I made or visit each tool for more on configuration options. 
 
 ## Rippledoc
 
