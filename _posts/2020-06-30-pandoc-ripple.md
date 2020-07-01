@@ -15,9 +15,9 @@ After asking around in [#writethedocs](https://www.writethedocs.org/slack/) Slac
 * [Pandoc](https://pandoc.org/) can be used to stitch files together into a semblance of a static site.
 * [Lunr](https://lunrjs.com/guides/getting_started.html) can be used as an offline search.
 
-With this information in hand I started researching. I was in that predicament other technical writers find themselves in. Do I have time to write this myself or can I find something that is open-source?
+With this information in hand I started researching. I was in that predicament other technical writers find themselves in. Do I have time to write this myself or can I find something that is open-source? Thankfully, I was able to find two resources pretty quickly.
 
-The two resources that I found and changed for my needs, [Rippledoc.py](http://www.unexpected-vortices.com/sw/rippledoc/index.html) and [Lunr-Index-and-Search-for-Static-Sites](https://github.com/BLE-LTER/Lunr-Index-and-Search-for-Static-Sites). I am not going to explain setup for each one, you can visit the [repo](https://github.com/tjperry07/pandoc-local-site) I made or visit each tool for more on configuration options. 
+The two resources that I found and changed for my needs, [Rippledoc.py](http://www.unexpected-vortices.com/sw/rippledoc/index.html) and [Lunr-Index-and-Search-for-Static-Sites](https://github.com/BLE-LTER/Lunr-Index-and-Search-for-Static-Sites). I am not going to explain setup for each one, you can visit the [repo](https://github.com/tjperry07/pandoc-local-site) I made or visit each tool for more on configuration options.
 
 ## Rippledoc
 
@@ -28,7 +28,7 @@ The two resources that I found and changed for my needs, [Rippledoc.py](http://w
 * Has previous and next links
 * It will follow the folder paths for nested items.
 
-To edit the script for my needs, I made most of my changes to `pandoc_process_file`. 
+To edit the script for my needs, I made most of my changes to the method `pandoc_process_file`.
 
 ## Lunr search for static sites
 
@@ -36,13 +36,13 @@ After using Rippledoc the site worked great. I was able to navigate between file
 
 ### A few things to look out for
 
-File paths in `rippledoc.py` is not straightforward, you will need to generate them as part of the script. To make sure the search file is available on every page, I added a [search path](https://github.com/tjperry07/pandoc-local-site/blob/master/docs/rippledoc.py#L362): 
+File paths in `rippledoc.py` are not straightforward, you will need to generate them as part of the script. To make sure the search file is available on every page, I added a [search path](https://github.com/tjperry07/pandoc-local-site/blob/master/docs/rippledoc.py#L362): 
 
 ```python
 html_bef = html_before.replace('{{path-to-search}}', '../' * depth + 'search.html')
 ```
 
-Then called it later when it [builds the body](https://github.com/tjperry07/pandoc-local-site/blob/master/docs/rippledoc.py#L475):
+Then called it later when it [builds the HTML body](https://github.com/tjperry07/pandoc-local-site/blob/master/docs/rippledoc.py#L475):
 
 
 {% highlight html%}
@@ -53,8 +53,7 @@ Then called it later when it [builds the body](https://github.com/tjperry07/pand
 {% endraw %}
 {% endhighlight %}
 
-
-To control the description and keywords for search I added a [YAML block](https://raw.githubusercontent.com/tjperry07/pandoc-local-site/master/docs/alan_bean.md) to the end of the file. Pandoc will read a YAML block anywhere as long as it has the three dashes, `---`. There are better ways to do this, but for this quick example it works.
+To control the description and keywords for search I added a [YAML block](https://raw.githubusercontent.com/tjperry07/pandoc-local-site/master/docs/alan_bean.md) to the end of the file. Pandoc will read a YAML block anywhere as long as it has the three dashes, `---`, and a space before and after. There are better ways to do this, but for this quick example it works.
 
 ```yaml
 ---
@@ -64,10 +63,9 @@ header-includes:
 ---
 ```
 
-What you get is a static site that can use used offline. Use Lunr as a local JavaScript file, write standard CSS only and you can take your docs anywhere.
+What you get is a static site that can be use used offline. Use Lunr as a local JavaScript file, write standard CSS only and you can take your docs anywhere.
 
-
-## GitHub
+## Example site
 
 * [GitHub Repo](https://github.com/tjperry07/pandoc-local-site)
 
@@ -77,7 +75,7 @@ These are some ideas for improving the workflow.
 
 * After `ripplydoc.py` is finished move the Markdown and HTML to seperate folders.
 * Add more CSS so the local site is responsive
-* Change Ripplydoc.py to use YAML metadata.
+* Change `rippledoc`.py to use YAML metadata files.
 * Run the `build_index.js` each time the site is built.
 * Move the search on the main page.
 
