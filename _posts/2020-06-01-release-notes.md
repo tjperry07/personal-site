@@ -5,7 +5,7 @@ permalink: /thinking-about-release-notes
 image: "assets/images/release.png"
 description: Describes release notes, what to consider when creating release notes and release notes design."
 categories: [ Technical Writing ]
-tags: [ release notes ]
+tags: [ Release Notes, Changelog ]
 ---
 
 Release notes, changelog whatever you want to call them, is a critical way to communicate with customers. I'll attempt to define what release notes are, the content and who should write them. 
@@ -22,6 +22,7 @@ Release notes or changelog is a way to inform your users of changes to your prod
 * Add links to direct readers to any supporting content.
 
 ## Release notes content
+
 What should your release notes contain? A good guideline to follow is:
 
 * **Enhancements** - Changes or updates to features that already exist and improve the user experience. Try to detail how it will help them.
@@ -31,6 +32,7 @@ What should your release notes contain? A good guideline to follow is:
 ![Slack Windows Release Notes](assets/images/release_notes_slack.png "Slack Windows Release Notes https://slack.com/release-notes/windows")
 
 ## Release notes design
+
 Designing your release notes might be the hardest part. They need to be apart of the product, but what else can you add to make the experience better?
 
 * **Filters** - Filters can let users narrow down the release notes to the information they need. 
@@ -42,6 +44,7 @@ Designing your release notes might be the hardest part. They need to be apart of
 ![Shopify Developer Release Notes](assets/images/release-notes-shopify.png "Shopify Developer Release Notes https://shopify.dev/changelog")
 
 ## Multi-channel releases
+
 Appcues ([https://www.appcues.com/blog/release-notes-examples](https://www.appcues.com/blog/release-notes-examples)) has a great article where they detail the places your release notes should live. 
 
 > * **Email**—re-engage users and encourage them to log back in to check out what's new
