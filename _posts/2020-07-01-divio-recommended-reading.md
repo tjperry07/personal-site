@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Recommended Reading -- Divio Documentation System"
-permalink: /recommended-reading
+permalink: /documentation-system-recommended-reading
 image: "assets/images/recommended-reading.png"
 description: "The documentation system by Divio is a great read for experienced and new technical writers."
 categories: [ Technical Writing ]
