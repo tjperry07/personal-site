@@ -5,8 +5,6 @@ description: "I'm a technical writer who writes mostly about documenation. Somet
 logo: 'assets/images/logo_humaaans.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-google_analytics: 'UA-167992939-2'
-disqus: 'tatianaperry'
 # mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
