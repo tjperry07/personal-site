@@ -5,7 +5,7 @@ description: "I'm a technical writer who writes mostly about documenation. Somet
 logo: 'assets/images/logo_humaaans.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-google_analytics: 'UA-167992939-1'
+google_analytics: 'UA-167992939-2'
 disqus: 'tatianaperry'
 # mailchimp-list: ''
 include: ["_pages"]
@@ -66,8 +66,8 @@ kramdown:
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
