@@ -29,16 +29,8 @@
 </head>
 
 {% if jekyll.environment == 'production' %}
-<!-- change your GA id in _config.yml -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', '{{site.google_analytics}}');
-</script>
+<!-- placeholder for analytics in the future -->
 
 {% endif %}
 
@@ -151,10 +143,6 @@
 
 {% if site.lazyimages == "enabled" %}
 <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
-{% endif %}
-
-{% if page.layout == 'post' %}
-<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
 
 </body>
