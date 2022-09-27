@@ -6,6 +6,7 @@ image: "assets/images/laptop_eye_hand.png"
 description: "The tools I use to write good documentation"
 categories: [ Technical Writing, Writing Tools ]
 tags: [ release notes, visual studio code, vale ]
+comments: false
 ---
 
 I've recently created a perfect writing setup that I can use for both work and personal projects. 

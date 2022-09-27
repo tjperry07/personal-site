@@ -6,6 +6,7 @@ image: "assets/images/recommended-reading.png"
 description: "The documentation system by Divio is a great read for experienced and new technical writers."
 categories: [ Technical Writing ]
 tags: [ Recommended Reading ]
+comments: false
 ---
 
 I'm not going to spoil the article, but [The documentation system by Divio](https://documentation.divio.com/) is worth the read. Don't want to read it? No worries, there is a video presentation as well.

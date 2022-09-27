@@ -6,6 +6,7 @@ image: "assets/images/Charco - Education.png"
 description: "In response to Why Your Company's Documentation Sucks"
 categories: [ Technical Writing ]
 tags: [ documentation, technical writing ]
+comments: false
 ---
 
 

@@ -6,6 +6,7 @@ image: "assets/images/release.png"
 description: Describes release notes, what to consider when creating release notes and release notes design."
 categories: [ Technical Writing ]
 tags: [ Release Notes, Changelog ]
+comments: false
 ---
 
 Release notes, changelog whatever you want to call them, is a critical way to communicate with customers. I'll attempt to define what release notes are, the content and who should write them. 
