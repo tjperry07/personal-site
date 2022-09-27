@@ -6,6 +6,7 @@ image: "assets/images/static-site.png"
 description: "Tools to create documentation that is available locally"
 categories: [ Technical Writing ]
 tags: [ pandoc, lujnrjs ]
+comments: false
 ---
 
 I had to solve for a curious use case. Creating documentation that can be used locally, is easy for other to contribute to and has little to no dependencies. There were a lot of other requirements that ruled out options such as mkDocs or even using something like Jekyll.
