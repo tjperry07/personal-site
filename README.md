@@ -1,3 +1,5 @@
+Looking for writing samples? https://github.com/tjperry07/work_projects
+
 # Welcome to my personal site. 
 This is a fork of the [Memoirs](https://bootstrapstarter.com/bootstrap-templates/jekyll-theme-memoirs/) theme. 
 
