@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Proving the value of documentation"
+title:  "Proving the Value of Documentation"
 permalink: /proving-value-of-documentation
 image: "assets/images/Designer-3.png"
 description: "Ways You Can Prove the Value of Documentation"
