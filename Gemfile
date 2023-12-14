@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 gem 'github-pages'
-gem 'nokogiri', '1.10.9'
+gem 'nokogiri', '1.15.5'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
