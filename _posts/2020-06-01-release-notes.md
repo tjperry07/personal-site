@@ -15,7 +15,7 @@ Release notes, changelog whatever you want to call them, is a critical way to co
 
 Release notes or changelog is a way to inform your users of changes to your product. The product changes can include changes to the API, updates to the documentation, bug fixes, UI (User Interface) changes, anything that has changed with the product. 
 
-## Formating release notes
+## Formatting release notes
 
 * Keep them short but informative.
 * Include date and version number (if applicable).
